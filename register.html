@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+</head>
+<body>
+    <img src="../MentMe/Images/logo.png">
+    <h2>MentMe Blog</h2><br>
+        <p><a href="index.html">Home|</a>
+        <a href="About.html">About|</a>
+        <a href="FAQ.html">FAQ|</a>
+        <a href="login.html">Login|</a>
+        <a href="register.html">Register|</a>
+        <a href="contact.html">Contact</a></p>
+    <hr>
+    <h2>Sign Up</h2>
+    <hr>
+    <h2>Create an Account</h2>
+    <form action="" method="POST">
+    <fieldset>
+        <legend> Peresonal Details</legend>
+    
+        <p><label>First Name: <input type="name" placeholder="Your Firstname"></p>
+        <p><label>Last Name: <input type="name" placeholder="Your Lastname"></p>
+        <p>Gender</p>
+        <input type="radio" name="Male" value="M">Male</input>
+        <input type="radio" name="Male" value="F">Female</input>
+        <p>Date of Birth <br><input type="date"></p>
+        <p>Select your interest</p>
+        <ul>
+            <li><input type="checkbox" name="interest" Value="music">Music</li>
+            <li><input type="checkbox" name="comedy" Value="music">Comedy</li>
+            <li><input type="checkbox" name="showbiz" Value="music">Showbiz</li>
+            <li><input type="checkbox" name="education" Value="music">Education</li>
+        </ul>
+        <p>Age Range
+            <select>
+            <option>10-20</option>
+            <option>21-31</option>
+            <option>32-42</option>
+            <option>43-53</option>
+            <option>53+</option>
+            </select>
+        </p>
+        <p>Select Favorite Movie <br>
+        <mark>select more than one where applicable</mark><br>
+                <select name="movies" size="4" multiple>
+                <optgroup label="adventure">
+                <option>lord of rings</option>
+                <option>The grims</option>
+                <option>The Hobbit</option>
+                <option>Eragon</option>
+            </optgroup>
+            <optgroup label="series">
+                    <option>game of thrones</option>
+                    <option>merlin</option>
+                    <option>legend of the seeker</option>
+                    <option>the green snake and wizard</option>
+                </optgroup>
+                </select>
+       </p>
+     <p><label>Your favourite color:<br> </label><input type="color" name="favorite"></label>
+     </p>  
+    </fieldset>
+    <fieldset><legend>Account Details</legend>
+    <p>Upload Profile Pictures <br>
+    <mark>pictures should not be more than 100kb</mark><br>
+    <input type="file" name="photo"></p>
+    <p><label>Username: <input type="name" placeholder="Your Username"></p>
+    <p><label for="form-pswd">Password:<label>
+        <input type="password" name="pswd" placeholder="Your password" maxlength="12" id="form-pswd"></label></p>
+        <p><label for="form-pswd">Retype Password:<label>
+        <input type="password" name="pswd" placeholder="Retype password" maxlength="12" id="form-pswd"></label></p>
+    <label>Rate us now (0 to 10) <input type="range" name="Satisfaction" min="0" max="10" step="1"></label>
+        <br>
+        <input type="checkbox" value="terms and condition"> I agree to your terms and conditions</input> <br>
+        <a href="">Click here</a> for terms and condion<br>
+            <input type="submit" value="Sign Up">
+            <input type="reset" value="Clear Data">
+    </fieldset>
+    <fieldset>
+        <legend>Dislaimer</legend>
+        All information provided were given voluntarily by the bearer of the above details
+    </fieldset>
+</form>
+<blockquote><h3>Other Links</h3></blockquote>  
+<ul>
+    <li><a href="#">Site Map</a></li>
+    <li><a href="#">Community</a></li>
+    <li><a href="#">Archives(90)</a></li>
+    <li><a href="#">Contact</a></li>
+</ul>                      
+<P>Copyright&copy; 2019</P>
+<p>
+All rigths Reserved
+</p>                           
+</body>
+</html>
+       
